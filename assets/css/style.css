@@ -25,6 +25,23 @@ Headers:		'Montserrat', sans-serif;
 
 -------------------------------------------------------------------*/
 /* 1. Header */
+
+
+
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 9999;
+}
+
+.whatsapp-icon img {
+  width: 70px; /* Adjust size as needed */
+  height: auto;
+}
+
+\
 .navigation {
   -moz-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;

@@ -1,7 +1,7 @@
 <?php
 mb_internal_encoding("UTF-8");
 
-$to = 'email@example.com';
+$to = 'snani.1997@gmail.com';
 $subject = 'Message from Propper';
 
 $name = "";

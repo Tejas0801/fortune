@@ -1,4 +1,5 @@
 <?php
+phpinfo();
 mb_internal_encoding("UTF-8");
 
 $to = 'snani.1997@gmail.com'; // <-- Replace 'snani.1997@gmail.com' with your actual email address

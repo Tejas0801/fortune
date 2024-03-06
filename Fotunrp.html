@@ -14,10 +14,38 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Fortune</title>
+    <style>
+        .hero-title .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+        
+        .glowing-button {
+            animation: glowing 1500ms infinite;
+            padding: 20px 40px; /* Increase padding for larger button */
+            font-size: 22px; /* Increase font size for larger button */
+            margin-top: 30px; /* Add margin between button and rest of the content */
+            width: auto; /* Adjust button width */
+        }
 
+        @keyframes glowing {
+            0% {
+                box-shadow: 0 0 10px rgba(240, 206, 10, 0.6);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(229, 203, 8, 0.8), 0 0 30px rgba(255, 215, 0, 0.6);
+            }
+            100% {
+                box-shadow: 0 0 10px rgba(232, 199, 14, 0.6);
+            }
+        }
+    </style>
 </head>
 
 <body class="has-loading-screen links-hover-effect" data-spy="scroll" data-target=".navigation">
+    
 
 <div class="page-wrapper" id="page-top">
     <header id="page-header">
@@ -44,9 +72,11 @@
                     <!--end right-->
                 </div>
                 <!--end wrapper-->
+            </div>
+            <!--end container-->
         </nav>
         <!--end navigation-->
-        <div class="hero-section background-is-dark">
+        <div class="hero-section background-is-dark" style="height: 250px;">
             <div class="wrapper">
                 <div class="hero-title">
                     <div class="container text-center">
@@ -64,39 +94,16 @@
             </div>
             
             <div class="hero-title">
-                    <div class="image-container">
-                        <img src="assets/img/11.jpg" alt="">
-                    </div>
-                    <!--end container-->
-                
-                <!--end hero-title-->
+                <div class="image-container">
+                    <img src="assets/img/fintb.jpg" alt="">
+                </div>
+                <!--end container-->
             </div>
         </div>
     </header>
     <!--end page-header-->
 
     <div id="page-content">
-        <style>
-            .glowing-button {
-                animation: glowing 1500ms infinite;
-                padding: 15px 30px; /* Increase padding for larger button */
-                font-size: 20px; /* Increase font size for larger button */
-                margin-top: 20px; /* Add margin between button and rest of the content */
-            }
-        
-            @keyframes glowing {
-                0% {
-                    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
-                }
-                50% {
-                    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 215, 0, 0.6);
-                }
-                100% {
-                    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
-                }
-            }
-        </style>
-        
         <div class="block" id="about">
             <div class="container">
                 <h2 style="margin-bottom: 30px;">About Us</h2>
@@ -113,7 +120,7 @@
                 </ol>
                 
                 <p style="font-size: 24px; line-height: 1.6; margin-top:0;">Transform your space with Fortune Interiors and experience the perfect blend of style, functionality, and comfort.</p>
-                <a href="#contact" class="btn btn-primary btn-rounded btn-lg glowing-button" style="background-color: gold;" >Visit  Site</a>
+                <a href="#contact" class="btn btn-primary btn-rounded btn-lg glowing-button" style="background-color: rgb(220, 197, 67);" >Visit  Site</a>
             </div>
             <!--end container-->
             <div class="background-wrapper" style="margin-top: 50px;">
@@ -121,11 +128,6 @@
             </div>
             <!--end background-wrapper-->
         </div>
-        <!--end block-->
-        
-        
-
-   
         <!--end block-->
 
         <div class="block" id="gallery">
@@ -136,7 +138,6 @@
                 <div class="slide">
                     <div class="container">
                         <img src="assets/img/14.jpg" alt="">
-    
                     </div>
                     <!--end container-->
                 </div>
@@ -144,7 +145,6 @@
                 <div class="slide">
                     <div class="container">
                         <img src="assets/img/15.jpg" alt="">
-                        
                     </div>
                     <!--end container-->
                 </div>
@@ -152,7 +152,6 @@
                 <div class="slide">
                     <div class="container">
                         <img src="assets/img/16.jpg" alt="">
-                      
                     </div>
                     <!--end container-->
                 </div>
@@ -160,7 +159,6 @@
                 <div class="slide">
                     <div class="container">
                         <img src="assets/img/13.jpg" alt="">
-                      
                     </div>
                     <!--end container-->
                 </div>
@@ -176,7 +174,6 @@
         </div>
         <!--end block-->
 
-        
         <hr style="height:2px;border-width:0;color:rgb(8, 8, 8);background-color:rgb(17, 16, 16)">
 
         <div class="block" id="contact">

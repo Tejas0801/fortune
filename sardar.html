@@ -14,7 +14,29 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Fortune</title>
+    <style>
+    
+        
+        .glowing-button {
+            animation: glowing 1500ms infinite;
+            padding: 20px 40px; /* Increase padding for larger button */
+            font-size: 22px; /* Increase font size for larger button */
+            margin-top: 30px; /* Add margin between button and rest of the content */
+            width: auto; /* Adjust button width */
+        }
 
+        @keyframes glowing {
+            0% {
+                box-shadow: 0 0 10px rgba(240, 206, 10, 0.6);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(229, 203, 8, 0.8), 0 0 30px rgba(255, 215, 0, 0.6);
+            }
+            100% {
+                box-shadow: 0 0 10px rgba(232, 199, 14, 0.6);
+            }
+        }
+    </style>
 </head>
 
 <body class="has-loading-screen links-hover-effect" data-spy="scroll" data-target=".navigation">
@@ -75,15 +97,12 @@
                 <h2>About the project.</h2>
                 <div class="row">
                     <div class="col-md-6 col-sm-6" data-scroll-reveal="enter right and move 20px">
-                        
-                    
                         <div>
-                            <img src="assets/img/logo1.png" alt="">
+                            <img src="assets/img/logo1.png" alt="" style="width: 400px; height: auto;">
                         </div>
-                    
-                    <figure class="note"></figure>
-                    <!--end video-player-->
-                </div>
+                        <figure class="note"></figure>
+                        <!--end video-player-->
+                    </div>
                     
                     <!--end col-md-6-->
                     <div class="col-md-6 col-sm-6" data-scroll-reveal="enter left and move 20px">
@@ -98,6 +117,7 @@ The Housing Project showcases well crafted individual houses,Apartment Flats in 
                     <!--end col-md-6-->
                 </div>
                 <!--end row-->
+                <a href="https://sardarprojects.com/portfolio.html" class="btn btn-primary btn-rounded btn-lg glowing-button" style="background-color: rgb(220, 197, 67);" >Visit  Site</a>
             </div>
             <!--end container-->
             <div class="background-wrapper">
@@ -151,15 +171,7 @@ The Housing Project showcases well crafted individual houses,Apartment Flats in 
         </div>
         <!--end block-->
 
-        <div class="block" id="plan">
-            <div class="container">
-                <h2>Floor Plan</h2>
-                
-                <img src="assets/img/MADHURAWADA-Model.jpg" alt="">
-            </div>
-            <!--end container-->
-        </div>
-        <!--end block-->
+      
 
         <hr style="height:2px;border-width:0;color:rgb(8, 8, 8);background-color:rgb(17, 16, 16)">
 

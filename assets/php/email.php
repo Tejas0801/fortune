@@ -2,7 +2,7 @@
 phpinfo();
 mb_internal_encoding("UTF-8");
 
-$to = 'snani.1997@gmail.com'; // <-- Replace 'snani.1997@gmail.com' with your actual email address
+$to = ''; // <-- Replace 'snani.1997@gmail.com' with your actual email address
 $subject = 'Message from Fortune';
 
 $name = isset($_POST['name']) ? $_POST['name'] : '';

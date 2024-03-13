@@ -58,11 +58,16 @@
                         <a href="index.html" class="brand"><img src="assets/img/about page copy.png" alt=""></a>
                     </div>
                     <!--end left-->
+                    <style>
+                        .navigation-links a {
+                            color: white;
+                        }
+                    </style>
                     <div class="right">
                         <ul class="nav navigation-links animate">
                             <li><a href="index.html" class="scroll">Home</a></li>
                             <li><a href="#about" class="scroll">About</a></li>
-                            <li><a href="#gallery" class="scroll">Gallery</a></li>
+                            
                             <li><a href="#contact" class="scroll">Contact</a></li>
                         </ul>
                         <div class="nav-btn">
@@ -155,9 +160,11 @@
                             <div class="col-md-6 col-sm-6">
                                 <h3>Address</h3>
                                 <address>
-                                    Fortune Properties<br>
+                                    50-40-20<br> 
+                                    Beside Deepak Dhaba<br>
+                                    TPT Colony<br>
                                     Seethamadara<br>
-                                    Visakhapatnam<br>
+                                    Visakhapatnam-530013<br>
                                     <br>
                                     <h3 style="margin-bottom:-10px">98853 73741</h3>
                                     <h3>99125 90778</h3>
@@ -166,11 +173,10 @@
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <h3>Social</h3>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
-                                    <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
-                                    <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
-                                    <a href="#"><i class="fa fa-skype"></i>Skype</a>
+                                <div class="column text-align-center social">
+                                    <a href="https://www.facebook.com/Fortuneproperties1"><i class="fa fa-facebook"></i>Facebook</a>
+                                    
+                                    <a href="https://www.instagram.com/fortuneproperties_vizag?igsh=aGJ1bGh6d3djMnp1"><i class="fa fa-instagram"></i>Instagram</a>
                                 </div>
                                 <!--end social-->
                             </div>
@@ -178,11 +184,17 @@
                     </div>
                     <div class="col-md-7 col-sm-7" data-scroll-reveal="enter top and move 20px">
                         <h3>Contact form</h3>
-                        <form id="form-contact" method="post" class="clearfix">
+                        <form id="form-contact" method="post" action="email.php" class="clearfix">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-
+                                        <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <!--end form-group -->
+                                </div>
+                                <!--end col-md-6 col-sm-6 -->
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
                                         <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
                                     </div>
                                     <!--end form-group -->
@@ -204,7 +216,10 @@
                                 <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Send a Message</button>
                             </div>
                             <!--end form-group -->
-                            <div id="form-contact-status"></div>
+                            <div id="form-contact-status">
+
+                            </div>
+                            
                         </form>
                         <!--end form-contact -->
                     </div>

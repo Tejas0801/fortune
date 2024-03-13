@@ -410,7 +410,7 @@ hr { @include opacity(.1); border-top: 2px dotted #000; }
   h3 { font-size: 18px; margin-bottom: 5px; }
   .contact-data { @include opacity(.7); margin: 25px 0; }
   .social { margin-top: 10px;
-    a { display: inline-block; padding: 3px;
+    a { display: block; padding: 3px;
       i { font-size: 18px; vertical-align: middle; }
     }
   }

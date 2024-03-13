@@ -2414,7 +2414,7 @@ hr {
   margin-top: 10px;
 }
 .person .social a {
-  display: inline-block;
+  display: block;
   padding: 3px;
 }
 .person .social a i {

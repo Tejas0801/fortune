@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    
+
 
     <title>Fortune</title>
 
@@ -272,7 +274,6 @@
             <hr>
         </div>
         <!--end container-->
-
         <div class="block" id="contact">
             <div class="container">
                 <h2>Contact</h2>
@@ -306,52 +307,60 @@
                     </div>
                     <div class="col-md-7 col-sm-7" data-scroll-reveal="enter top and move 20px">
                         <h3>Contact form</h3>
-                        <form id="form-contact" method="post" action="email.php" class="clearfix">
+                        <form method="post" action="https://api.web3forms.com/submit" class="clearfix">
+                            <!-- Hidden input field for Web3 Mail API key -->
+                            <input type="hidden" name="apikey" value="0b46099d-3da3-413c-aa25-b3b8cfa61abb">
+                            <!-- Hidden input fields for subject and redirect URL -->
+                            <input type="hidden" name="subject" value="New Contact Form Submission">
+                            <input type="hidden" name="redirect" value="REDIRECT_URL_AFTER_SUBMISSION">
+                    
                             <div class="row">
+                                
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
                                     </div>
-                                    <!--end form-group -->
                                 </div>
-                                <!--end col-md-6 col-sm-6 -->
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                                        <input type="text" class="form-control" id="form-contact-email" name="Mobile Number" placeholder="Your Mobile Number" required>
                                     </div>
-                                    <!--end form-group -->
                                 </div>
-                                <!--end col-md-6 col-sm-6 -->
                             </div>
-                            <!--end row -->
+                    
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Your Message" required></textarea>
                                     </div>
-                                    <!--end form-group -->
                                 </div>
-                                <!--end col-md-12 -->
                             </div>
-                            <!--end row -->
+                    
                             <div class="form-group clearfix">
                                 <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Send a Message</button>
                             </div>
-                            <!--end form-group -->
-                            <div id="form-contact-status">
-
-                            </div>
+                    
                             
                         </form>
-                        <!--end form-contact -->
                     </div>
-                    <!--end col-md-6-->
+                    
+               
                 </div>
                 <!--end row-->
             </div>
             <!--end container-->
         </div>
+        
         <!--end block-->
+        <div class="container">
+            <hr>
+        </div>
+        
+        <div style="display: flex; justify-content: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475.01799785890927!2d83.30959263022994!3d17.73785368321032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39439a7a664959%3A0xc411209abd4b2994!2sFORTUNE%20PROPERTIES!5e0!3m2!1sen!2sin!4v1710526662065!5m2!1sen!2sin" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+
     </div>
     <!--end page-content-->
 </div>
